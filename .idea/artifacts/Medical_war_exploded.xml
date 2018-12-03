@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Medical:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Medical_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Medical/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Medical" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
+          <element id="library" level="project" name="Maven: org.json:json:20180813" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
