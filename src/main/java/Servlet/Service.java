@@ -18,7 +18,7 @@ public class Service extends HttpServlet {
         req.setCharacterEncoding("UTF-8");
         String name = req.getParameter("cases");
          String m = name;
-        SendMessage.alermessage(resp, m, "/Medical.html");
+        SendMessage.alermessage(resp, m, "/index.html");
     }
 
     @Override
